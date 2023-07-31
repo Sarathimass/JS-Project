@@ -17,28 +17,6 @@ tr.active {
 	background-color: chocolate;
 }
 
-.btn-view {
-	padding: 5px 10px;
-	background-color: #08f372;
-	border: 2px solid #61615e;
-	border-radius: 5px;
-	color: #fff;
-	outline: none;
-	cursor: pointer;
-	margin-left: 1rem;
-}
-
-.btn-support {
-	padding: 5px 10px;
-	background-color: #08acf3;
-	border: 2px solid #61615e;
-	border-radius: 5px;
-	color: #fff;
-	outline: none;
-	cursor: pointer;
-	margin-left: 1rem;
-}
-
 form > input {
 	padding: 5px;
 	margin: 18px 1px;
@@ -58,4 +36,27 @@ form > button {
 	outline: none;
 	cursor: pointer;
 	margin-left: 1rem;
+}
+
+.btn-support {
+	padding: 10px;
+	background-color: #000;
+	border-radius: 5px;
+	color: #fff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-left: 1rem;
+	font-size: 16;
+}
+.input {
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+.donate {
+	border: none;
+	outline: none;
+	padding: 10px 15px;
 }
