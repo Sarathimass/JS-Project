@@ -1,0 +1,61 @@
+table {
+	margin: 20px auto;
+	border-spacing: 0;
+}
+tr:first-child {
+	background-color: #1b63ff;
+	color: #fff;
+}
+th,
+td {
+	padding: 5px 15px;
+	font-size: 18px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+tr.active {
+	background-color: chocolate;
+}
+
+.btn-view {
+	padding: 5px 10px;
+	background-color: #08f372;
+	border: 2px solid #61615e;
+	border-radius: 5px;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	margin-left: 1rem;
+}
+
+.btn-support {
+	padding: 5px 10px;
+	background-color: #08acf3;
+	border: 2px solid #61615e;
+	border-radius: 5px;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	margin-left: 1rem;
+}
+
+form > input {
+	padding: 5px;
+	margin: 18px 1px;
+	width: 35%;
+}
+form > span {
+	font-weight: 500;
+	font-size: 22px;
+	margin-top: 2px;
+}
+form > button {
+	padding: 5px 10px;
+	background-color: #4f08f3;
+	border: 2px solid #61615e;
+	border-radius: 5px;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	margin-left: 1rem;
+}
