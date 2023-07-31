@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;1,500&family=Ysabeau+SC:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- FontAwesome 6.2.0 CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- css custom link -->
+		<link rel="stylesheet" href="./assests/css/style.css" />
+		<link rel="stylesheet" href="./assests/css/about.css" />
+		<title>JS-DOM</title>
+	</head>
+	<body>
+		<!-- ========== Start header ========== -->
+
+		<header>
+			🍔 FOOD COOK PLANNER
+			<a
+				href="./index.html"
+				style="
+					margin-left: 20px;
+					font-size: 15px;
+					font-weight: bold;
+					cursor: pointer;
+					text-decoration: none;
+					color: #fff;
+					border-bottom: 2px solid chartreuse;
+				"
+				>Main Page</a
+			>
+		</header>
+
+		<!-- ========== End header ========== -->
+
+		<!-- ========== Start Main ========== -->
+		<main>
+			<table>
+				<h3>Authors Details</h3>
+				<tr>
+					<th>Name</th>
+					<th>Acount</th>
+					<th>Contact</th>
+				</tr>
+				<tr>
+					<td>Sarathi</td>
+					<td>github.com</td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>Kumar</td>
+					<td>Facebook.com</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>Babu</td>
+					<td>Instagram.com</td>
+					<td>12345</td>
+				</tr>
+			</table>
+
+			<button class="btn-support" data-id-toogle="btn-support">
+				Support Creator
+			</button>
+			<form id="btn-support" hidden>
+				<span style="font-family: 'Times New Roman', Times, serif">₹</span>
+				<input type="number" placeholder="Enter Your Amount" min="1" />
+				<button>Donate</button>
+			</form>
+		</main>
+		<!-- ========== End Main ========== -->
+		<script src="./assests/js/donate.js"></script>
+	</body>
+</html>

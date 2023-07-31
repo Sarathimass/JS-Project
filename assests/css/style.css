@@ -1,0 +1,159 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* font-family: 'Rubik', sans-serif; */
+	font-family: "Ysabeau SC", sans-serif;
+}
+html,
+body {
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+/***** header *****/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 25rem;
+	text-align: center;
+	background: #0f2027;
+	background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+	background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+/***** End header *****/
+
+/***** main *****/
+main {
+	margin: 10px auto;
+	padding: 1rem;
+	text-align: center;
+	width: 600px;
+}
+/***** End main *****/
+
+/***** Form *****/
+.main {
+	background-color: #fff;
+	padding: 25px 10px;
+	border-radius: 3px;
+	/* box-shadow: 5px 5px 10px rgb(231, 231, 231); */
+}
+.input-food {
+	padding: 5px 10px;
+	outline: none;
+	width: 70%;
+	border: 0.6mm solid #000;
+	border-radius: 5px;
+}
+.input-btn {
+	padding: 5px 10px;
+	background-color: #0f2027;
+	border: 2px solid #61615e;
+	border-radius: 5px;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	margin-left: 1rem;
+}
+.input-btn:hover {
+	color: chartreuse;
+	border: none;
+}
+
+.food-list {
+	padding: 25px 15px;
+	list-style: none;
+	border-radius: 5px;
+	background-color: #fff;
+
+	/* 
+	background: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0.15) 0%,
+			rgba(0, 0, 0, 0.15) 100%
+		),
+		radial-gradient(
+				at top center,
+				rgba(255, 255, 255, 0.4) 0%,
+				rgba(0, 0, 0, 0.4) 120%
+			)
+			#989898;
+	background-blend-mode: multiply, multiply; */
+}
+.food-items {
+	padding: 5px 15px;
+	border: 0.666mm solid#000;
+	background-color: #fff;
+	margin: 20px 10%;
+	color: #000;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 14px;
+	width: 70%;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.food-items:hover {
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+}
+.added {
+	padding: 10px 5px;
+	background-color: green;
+	border-left: 5px solid #000;
+	border-radius: 5px;
+	margin: 10px 0;
+	color: #fff;
+	text-align: left;
+	font-weight: 400;
+}
+.deleted {
+	padding: 10px 5px;
+	background-color: red;
+	border-left: 5px solid #000;
+	border-radius: 5px;
+	margin: 10px 0;
+	color: #fff;
+	text-align: left;
+	font-weight: 400;
+}
+/* /***** End Form ******/
+
+section {
+	margin: 20px 0px;
+	background-color: #fff;
+	border-radius: 5px;
+	/* box-shadow: 5px 5px 10px rgb(231, 231, 231); */
+	border-radius: 5px;
+}
+section img {
+	width: 550px;
+}
+#no-list {
+	font-size: 17px;
+	padding-bottom: 15px;
+	color: #666262;
+}
+.food-count {
+	margin-left: 80%;
+	padding: 13px 10px;
+	text-align: center;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: cadetblue;
+	width: 20%;
+	color: #0c0000;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-family: rubik;
+}
